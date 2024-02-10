@@ -2,7 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
+ 
     
 }
 body {
@@ -48,6 +48,7 @@ button {
     
 }
 a{
+       text-decoration: none;
     color:white;
 }
 
