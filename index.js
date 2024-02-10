@@ -24,3 +24,4 @@ document.querySelector(".yesbutton").addEventListener("click",function (){
     document.querySelector(".box2").classList.remove('hide');
     // document.querySelector("box2").classList.add("show");
 })
+

@@ -2,6 +2,8 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    
 }
 body {
     background-image:linear-gradient(45deg, rgb(23, 141, 238),rgb(69, 56, 253));
@@ -45,10 +47,17 @@ button {
     z-index: 99;
     
 }
+a{
+    color:white;
+}
+
 
 button:hover{
     color:black;
     background-color: white;
+    a{
+        color: black;
+    }
 }
 .abs {
     
