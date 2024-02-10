@@ -1,0 +1,62 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:linear-gradient(45deg, rgb(23, 141, 238),rgb(69, 56, 253));
+    background-size: cover;
+    height:100dvh ;
+}
+
+
+.contentbox {
+    
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.box1{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.hide {
+    display: none;
+}
+
+.head{
+    color:azure;
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button {
+    color: azure;
+    background-color: rgb(40, 106, 230);
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    z-index: 99;
+    
+}
+
+button:hover{
+    color:black;
+    background-color: white;
+}
+.abs {
+    
+     position: absolute; 
+  
+}
+
+
+
+
+
